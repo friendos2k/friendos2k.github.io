@@ -450,7 +450,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fffc;
   font-size: 16px;
   overflow: hidden;
-  padding: 10px 22px 10px 15px;
+  padding: 10px 20x 10px 15px;
   position: relative;
   text-decoration: none;
   width: 100%;
@@ -627,7 +627,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 #services .box:after {
     content: '';
-    width: 80px;
+    width: 8px;
     height: 80px;
     background: #9746DE;
     position: absolute;
