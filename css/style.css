@@ -210,7 +210,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-text-fill-color: transparent;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 770px) {
   #intro .intro-content h2 {
     font-size: 22px;
     /* background: #ffffffa3; */
@@ -272,7 +272,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #intro #intro-carousel .item {
-  width: 100%;
+  width: 200%;
   height: 60vh;
   background-size: cover;
   background-position: center;
