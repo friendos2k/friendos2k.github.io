@@ -54,7 +54,7 @@ and (-webkit-device-pixel-ratio: 3)
   transition: background 0.5s;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 320px) {
   .back-to-top {
     bottom: 15px;
   }
@@ -617,6 +617,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about .content ul li {
   padding-bottom: 10px;
 }
+@media only screen
+and (device-width: 320px)
+and (device-height: 480px)
+and (-webkit-device-pixel-ratio: 3) 
+
 
 /* Services Section
 --------------------------------*/
@@ -871,7 +876,7 @@ background: linear-gradient(45deg, #7020B6 0%, #7020B6 100%);
 .cta-btn-container img {
     width: 100%;
 }
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   #call-to-action .cta-btn-container {
     display: flex;
     align-items: center;
