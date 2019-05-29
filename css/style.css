@@ -30,6 +30,15 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 20px 0;
   padding: 0;
 }
+@media only screen
+and (device-width: 320px)
+and (device-height: 480px)
+and (-webkit-device-pixel-ratio: 3) 
+@media only screen and (min-width: 100px) and (max-width: 699px) {
+
+#main-content .sidebar img {display: none}
+
+}
 
 /* Back to top button */
 .back-to-top {
